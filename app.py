@@ -1,3 +1,10 @@
 import streamlit as st
+from PIL import Image 
 
+st.write("Mi primera aplicación")
+
+image = Image.open('Imagen album')
+
+
+st.image(image, caption = 'Hola Soy Lasso')
 st.write("Mi primera aplicación")
