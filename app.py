@@ -7,4 +7,3 @@ image = Image.open('Imagen album.png')
 
 
 st.image(image, caption = 'Hola Soy Lasso')
-st.write("Mi primera aplicación")
