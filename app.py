@@ -3,7 +3,7 @@ from PIL import Image
 
 st.write("Mi primera aplicación")
 
-image = Image.open('Imagen album.jpg')
+image = Image.open('Imagen album.png')
 
 
 st.image(image, caption = 'Hola Soy Lasso')
